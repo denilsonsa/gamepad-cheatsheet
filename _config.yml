@@ -3,4 +3,6 @@ theme: jekyll-theme-cayman
 collections:
   gamepads:
     output: true
-    permalink: /:name:output_ext
+    permalink: /:path:output_ext
+
+lsi: false

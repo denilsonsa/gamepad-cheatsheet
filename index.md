@@ -3,7 +3,7 @@
 
 <ul>
 {% for gamepad in site.gamepads %}
-  <li><a href="{{ gamepad.url }}">{{ gamepad.brand }} {{ gamepad.model }}</a></li>
+  <li><a href="{{ gamepad.url | relative_url }}">{{ gamepad.brand }} {{ gamepad.model }}</a></li>
 {% endfor %}
 </ul>
 
