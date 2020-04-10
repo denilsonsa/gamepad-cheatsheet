@@ -1,1 +1,6 @@
 theme: jekyll-theme-cayman
+
+collections:
+  gamepads:
+    output: true
+    permalink: /:name:output_ext

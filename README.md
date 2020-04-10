@@ -1,3 +1,10 @@
+TODO: Write down a proper README.
+
+TODO: describe here the difference between Xinput and Dinput (link to wikipedia)
+
+TODO: Describe here the X/Y and A/B buttons.
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/denilsonsa/gamepad-cheatsheet/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
