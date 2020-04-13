@@ -5,6 +5,8 @@ model: M30
 
 # {{ page.brand }} {{ page.model }}
 
+<img class="drawing" src="8BitDo_M30.svg" alt="Drawing of the {{ page.brand }} {{ page.model }} gamepad, showing all buttons.">
+
 * [Product page](https://www.8bitdo.com/m30/)
 * [Manual](https://download.8bitdo.com/Manual/Controller/M30/M30_Manual.pdf)
 * [FAQ](https://support.8bitdo.com/faq/m30-bluetooth-controller.html)
@@ -25,14 +27,16 @@ Use these combinations to turn on the gamepad.
 Combination   | Mode            | LEDs
 ------------- | --------------- | ----
 START         | Last used mode  | As many as last mode
-START + B     | Android/Dinput  | 1 LED blinks
-START + X     | Xinput          | 2 LEDs blink
-START + A     | Mac             | 3 LEDs blink
-START + Y     | Nintendo Switch | 4 LEDs blink in a back-and-forth motion
-START + L + R | Firmware update | Red LED blinks constantly
+B + START     | Android/Dinput  | 1 LED blinks
+X + START     | Xinput          | 2 LEDs blink
+A + START     | Mac             | 3 LEDs blink
+Y + START     | Nintendo Switch | 4 LEDs blink in a back-and-forth motion
+L + R + START | Firmware update | Red LED blinks constantly
 
 
 ## Power-off
+
+Automatically turns off after 15 minutes without activity.
 
 Hold for...  | Action
 ------------ | ------
@@ -43,11 +47,11 @@ START for 8s | Force power off
 
 480mAh, 1-2 hours of charging time, 18 hours of play time.
 
-LED        | Meaning
----------- | -------
-RED blinks | Low battery
-RED solid  | Charging
-RED off    | Fully charged
+LED          | Meaning
+------------ | -------
+RED blinking | Low battery
+RED solid    | Charging
+RED off      | Fully charged
 
 ## Button remapping
 

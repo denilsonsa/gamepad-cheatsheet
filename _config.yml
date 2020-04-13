@@ -1,4 +1,8 @@
-theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-readme-index
+  - jekyll-relative-links
 
 collections:
   gamepads:
@@ -6,3 +10,13 @@ collections:
     permalink: /:path:output_ext
 
 lsi: false
+
+readme_index:
+  remove_originals: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
