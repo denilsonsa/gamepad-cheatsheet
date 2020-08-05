@@ -69,7 +69,10 @@ Gamepads trying to support multiple systems (or aimed at players that play emula
 
 The SVG drawings of each gamepad are extracted from the PDF manuals using [Inkscape](https://www.inkscape.org/) and then cleaned up using [Scour](https://github.com/scour-project/scour).
 
-     scour -i INPUT.svg -o OUTPUT.svg --remove-metadata  --enable-comment-stripping --enable-id-stripping
+     scour -i INPUT.svg -o OUTPUT.svg \
+         --remove-metadata \
+	 --enable-comment-stripping \
+	 --enable-id-stripping
 
 ## Where to buy?
 
