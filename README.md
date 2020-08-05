@@ -71,8 +71,8 @@ The SVG drawings of each gamepad are extracted from the PDF manuals using [Inksc
 
      scour -i INPUT.svg -o OUTPUT.svg \
          --remove-metadata \
-	 --enable-comment-stripping \
-	 --enable-id-stripping
+         --enable-comment-stripping \
+         --enable-id-stripping
 
 ## Where to buy?
 
