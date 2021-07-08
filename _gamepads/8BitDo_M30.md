@@ -33,7 +33,6 @@ A + START     | Mac             | 3 LEDs blink
 Y + START     | Nintendo Switch | 4 LEDs blink in a back-and-forth motion
 L + R + START | Firmware update | Red LED blinks constantly
 
-
 ## Power-off
 
 Automatically turns off after 15 minutes without activity.
@@ -45,7 +44,7 @@ START for 8s | Force power off
 
 ## Battery
 
-480mAh, 1-2 hours of charging time, 18 hours of play time.
+480mAh battery, 1-2 hours of charging time, 18 hours of play time.
 
 LED          | Meaning
 ------------ | -------

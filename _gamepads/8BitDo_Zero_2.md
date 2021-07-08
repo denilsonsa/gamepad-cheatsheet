@@ -41,7 +41,7 @@ START for 8s | Force power off
 
 ## Battery
 
-180mAh, 1-2 hours of charging time, 8 hours of play time.
+180mAh Li-on battery, 1-2 hours of charging time, 8 hours of play time.
 
 LED          | Meaning
 ------------ | -------
