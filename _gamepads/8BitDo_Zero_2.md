@@ -10,7 +10,9 @@ model: Zero 2
 * [Product page](https://www.8bitdo.com/zero2/)
 * [Manual](https://download.8bitdo.com/Manual/Controller/Zero2/Zero2_Manual.pdf)
 * [FAQ](https://support.8bitdo.com/faq/zero2.html)
-* Connections: Bluetooth and USB Micro
+* Connections: Bluetooth and USB Micro(1)
+
+(1) The [FAQ](https://support.8bitdo.com/faq/zero2.html) claims *“The USB connection is for firmware upgrade and power charging only.”*, but that's incorrect. This gamepad can be used through USB.
 
 ## Power-on modes (Bluetooth)
 
@@ -23,12 +25,12 @@ B + START     | Android/Dinput     | Blue LED blinks 1 time
 X + START     | Xinput             | Blue LED blinks 2 times
 A + START     | Mac                | Blue LED blinks 3 times
 Y + START     | Nintendo Switch    | Blue LED blinks 4 times
-R + START     | Keyboard(1)        | Blue LED blinks 5 times
-L + START     | No power saving(2) | Green LED blinks (last selected mode) times
+R + START     | Keyboard(2)        | Blue LED blinks 5 times
+L + START     | No power saving(3) | Green LED blinks (last selected mode) times
 L + R + START | Firmware update    | Green-yellowish LED blinks constantly
 
-(1) Buttons are mapped to the letters from `e` to `o` (on a QWERTY layout).
-(2) Undocumented, [8BitDo support confirmed it disables the 15-minute power-off](https://www.reddit.com/r/8bitdo/comments/f37ovb/8bitdo_zero_2_lstart_blinks_green_led_why/).
+(2) Buttons are mapped to the letters from `e` to `o` (on a QWERTY layout).
+(3) Undocumented, [8BitDo support confirmed it disables the 15-minute power-off](https://www.reddit.com/r/8bitdo/comments/f37ovb/8bitdo_zero_2_lstart_blinks_green_led_why/).
 
 ## Power-off
 
