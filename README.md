@@ -17,7 +17,7 @@ This website is focused on any game controller (not just gamepads) that can be c
 That's why this website was created. Since it is "community"-driven, we are free to add missing information and to rearrange the information to make it easier to find. If you like analogies, think of this website as a <https://tldr.sh/> version of gamepad manuals.
 
 [repo]: https://github.com/denilsonsa/gamepad-cheatsheet
-[denilsonsa]: http://denilson.sa.nom.br/
+[denilsonsa]: https://denilson.sa.nom.br/
 
 ## Common gamepad features
 
