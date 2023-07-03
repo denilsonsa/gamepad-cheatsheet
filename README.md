@@ -77,3 +77,9 @@ The SVG drawings of each gamepad are extracted from the PDF manuals using [Inksc
 ## Where to buy?
 
 * <https://www.dragonbox.de/> has a great selection of gamepads and products.
+
+## See also
+
+Other somewhat related projects and pages:
+
+* <https://github.com/gabomdq/SDL_GameControllerDB>
