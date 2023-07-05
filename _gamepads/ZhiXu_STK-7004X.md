@@ -1,8 +1,6 @@
 ---
 brand: Saitake/ZhiXu
 model: STK-7004X
-# idVendor=ac05, idProduct=3d03
-# Bluetooth: 1949:0402
 ---
 
 # {{ page.brand }} {{ page.model }}
@@ -12,7 +10,9 @@ model: STK-7004X
 * The manufacturer is known as Saitake.
 * The USB vendor id is known as ZhiXu.
 * [User manual](http://cdn.cnetcontent.com/b9/ba/b9ba3e9a-e622-4c49-92ce-56a1fab5763c.pdf) (with different branding)
-* Connections: Bluetooth and USB-micro
+* Connections:
+    * Bluetooth (vendor id: `1949`, product id: `0402`)
+    * USB-micro (vendor id: `ac05`, product id: `3d03`)
 
 ## Power-on modes (Bluetooth)
 
