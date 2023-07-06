@@ -11,6 +11,10 @@ model: SN30 Pro+
 * [Product page](https://www.8bitdo.com/sn30-pro-plus/)
 * [Manual](https://download.8bitdo.com/Manual/Controller/SN30-Pro+/SN30_Pro+_Manual.pdf)
 * [FAQ](https://support.8bitdo.com/faq/sn30-pro-plus.html)
+* User-created content:
+    * [clach04/8bitdo_manual](https://github.com/clach04/8bitdo_manual/)
+    * [fwupd/8bitdo-firmware](https://github.com/fwupd/8bitdo-firmware)
+    * [jayp76/8bitdo_faq](https://github.com/jayp76/8bitdo_faq/wiki)
 
 ## Overview
 
