@@ -22,6 +22,10 @@ main {
   flex: 8 0 30em;
   padding: 1em;
 }
+main pre {
+  max-width: calc(100vw - 2rem);  /* Minus the "main" padding, minus some extra for the scrollbar. */
+  overflow-x: auto;
+}
 main > h1:first-child,
 main > h2:first-child,
 main > h3:first-child {
@@ -81,6 +85,7 @@ svg.fill-from-color {
 img.drawing {
   display: block;
   max-width: 100vw;
+  max-width: calc(100vw - 3rem);  /* Minus the "main" padding, minus some extra for the scrollbar. */
   max-height: 100vh;
   width: 100%;
 }
