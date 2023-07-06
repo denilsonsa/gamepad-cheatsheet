@@ -14,7 +14,6 @@ model: Stadia controller
     * [Troubleshoot the Stadia Controller](https://web.archive.org/web/20230603175708/https://support.google.com/stadia/answer/9584135)
 * Connections:
     * Bluetooth LE 4.2 (vendor id: `18d1`, product id: `9400`)
-        * [Rumble (vibration) doesn't seem to be working via Bluetooh](https://github.com/libsdl-org/SDL/issues/7224).
     * USB-C (vendor id: `18d1`, product id: `9400`)
 * 3.5mm headphone jack can be used when the controller is connected via USB.
 * Weight: 268g
@@ -65,24 +64,50 @@ How to use:
     * Stadia controller ← USB-C to USB-C cable ← secondary controller
     * Stadia controller ← USB-C to USB-A adapter ← USB-A cable ← secondary controller
 
+Very few controllers are supported for Tandem mode:
+
+| Secondary controller                       | vibration | Vendor ID:Product ID (VID:PID)  |
+| ------------------------------------------ | --------- | ------------------------------- |
+| Sony DualSense® Controller                 | supported | 054c:0ce6                       |
+| Sony DualShock 3 Controller                | no        | 054c:0268                       |
+| Sony DualShock® 4 Controller               | supported | 054c:05c4, 054c:09cc            |
+| Stadia Controller                          | supported | 18d1:9400                       |
+| Switch Pro Controller                      | no        | 057e:2009                       |
+| Valve Steam Controller Wireless Adapter    | no        | 28de:1142                       |
+| Valve Steam® Controller                    | no        | 28de:1102                       |
+| Xbox 360 Controller Wireless Adapter       | no        | 045e:0719                       |
+| Xbox 360® Wired Controller                 | no        | 045e:028e                       |
+| Xbox Adaptive Controller                   | no        | 045e:0b0a                       |
+| Xbox One Elite Controller (Series 1 and 2) | supported | 045e:02e3, 045e:0b00            |
+| Xbox One® Controller                       | supported | 045e:02d1, 045e:02dd, 045e:02ea |
+| Xbox® Series X/S™ Controllers              | supported | 045e:0b12                       |
+
 Note: To use vibration on the primary controller in Tandem Mode, hold the down button on the Dpad while connecting the second controller and then hold it for 3 seconds after connecting.
 
 ## Additional udev rules for Linux systems
 
-If your computer is running a Linux-based operating system, you might need to add new udev rules before you can use or update the controller:
+These rules are based on the [official support page](https://web.archive.org/web/20230603175750/https://support.google.com/stadia/answer/13067284#zippy=%2Cim-on-a-linux-based-computer-and-cant-update-my-stadia-controller-help) and [some user investigation](https://web.archive.org/web/20230603175750/https://support.google.com/stadia/answer/13067284#zippy=%2Cim-on-a-linux-based-computer-and-cant-update-my-stadia-controller-help).
 
-    { cat <<EOF
-    # SDP protocol
-    KERNEL=="hidraw*", ATTRS{idVendor}=="1fc9", MODE="0666"
-    ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="1fc9", MODE="0666"
-    ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="0d28", MODE="0666"
-    # Flashloader
-    KERNEL=="hidraw*", ATTRS{idVendor}=="15a2", MODE="0666"
-    # Controller
-    KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="18d1", MODE="0666"
-    SUBSYSTEMS=="usb", ATTRS{idVendor}=="18d1", ATTRS{idProduct}=="9400", MODE="0660", TAG+="uaccess"
-    EOF
-    } | sudo tee /etc/udev/rules.d/70-stadiacontroller-flash.rules
+Please add this to `/etc/udev/rules.d/70-stadiacontroller-flash.rules`:
+
+```conf
+# /etc/udev/rules.d/70-stadiacontroller-flash.rules
+
+# SDP protocol
+KERNEL=="hidraw*", ATTRS{idVendor}=="1fc9", MODE="0666"
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="1fc9", MODE="0666"
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="0d28", MODE="0666"
+# Flashloader
+KERNEL=="hidraw*", ATTRS{idVendor}=="15a2", MODE="0666"
+# Controller
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="18d1", MODE="0666"
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="18d1", ATTRS{idProduct}=="9400", MODE="0660", TAG+="uaccess"
+
+# Stadia over USB hidraw
+KERNEL=="hidraw*", ATTRS{idVendor}=="18d1", ATTRS{idProduct}=="9400" SUBSYSTEM=="hidraw", MODE="0660", TAG+="uaccess"
+# Stadia over bluetooth hidraw
+KERNEL=="hidraw*", KERNELS=="*18D1:9400*", MODE="0660", TAG+="uaccess"
+```
 
 Next, run the following command:
 
