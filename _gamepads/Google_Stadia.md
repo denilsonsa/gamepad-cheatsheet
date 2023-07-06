@@ -88,10 +88,10 @@ Note: To use vibration on the primary controller in Tandem Mode, hold the down b
 
 These rules are based on the [official support page](https://web.archive.org/web/20230603175750/https://support.google.com/stadia/answer/13067284#zippy=%2Cim-on-a-linux-based-computer-and-cant-update-my-stadia-controller-help) and [some user investigation](https://web.archive.org/web/20230603175750/https://support.google.com/stadia/answer/13067284#zippy=%2Cim-on-a-linux-based-computer-and-cant-update-my-stadia-controller-help).
 
-Please add this to `/etc/udev/rules.d/70-stadiacontroller-flash.rules`:
+Please add this to `/etc/udev/rules.d/70-stadiacontroller.rules`:
 
 ```conf
-# /etc/udev/rules.d/70-stadiacontroller-flash.rules
+# /etc/udev/rules.d/70-stadiacontroller.rules
 
 # SDP protocol
 KERNEL=="hidraw*", ATTRS{idVendor}=="1fc9", MODE="0666"
