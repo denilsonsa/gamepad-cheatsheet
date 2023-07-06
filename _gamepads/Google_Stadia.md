@@ -7,16 +7,16 @@ model: Stadia controller
 
 <img class="drawing" src="Google_Stadia.svg" alt="Drawing of the {{ page.brand }} {{ page.model }} gamepad">
 
-* [Google Stadia service was shut down on January 2023](https://web.archive.org/web/20230602175401/https://support.google.com/stadia/answer/9578631). Existing controllers can have [a firmware update to enable Bluetooth mode](https://web.archive.org/web/20230603213743/https://stadia.google.com/controller/). All the buttons are available as standard buttons, as they can no longer activate the assistance, nor capture a screenshot, nor launch Stadia.
-* Official documentation (archived):
-    * [Stadia Controller features and specifications](https://web.archive.org/web/20230603175647/https://support.google.com/stadia/answer/9565956)
-    * [Connect your Stadia Controller to a device](https://web.archive.org/web/20230603175750/https://support.google.com/stadia/answer/13067284)
-    * [Troubleshoot the Stadia Controller](https://web.archive.org/web/20230603175708/https://support.google.com/stadia/answer/9584135)
 * Connections:
     * Bluetooth LE 4.2 (vendor id: `18d1`, product id: `9400`)
     * USB-C (vendor id: `18d1`, product id: `9400`)
 * 3.5mm headphone jack can be used when the controller is connected via USB.
 * Weight: 268g
+* [Google Stadia service was shut down on January 2023](https://web.archive.org/web/20230602175401/https://support.google.com/stadia/answer/9578631). Existing controllers can have [a firmware update to enable Bluetooth mode](https://web.archive.org/web/20230603213743/https://stadia.google.com/controller/). All the buttons are available as standard buttons, as they can no longer activate the assistance, nor capture a screenshot, nor launch Stadia.
+* Official documentation (archived):
+    * [Stadia Controller features and specifications](https://web.archive.org/web/20230603175647/https://support.google.com/stadia/answer/9565956)
+    * [Connect your Stadia Controller to a device](https://web.archive.org/web/20230603175750/https://support.google.com/stadia/answer/13067284)
+    * [Troubleshoot the Stadia Controller](https://web.archive.org/web/20230603175708/https://support.google.com/stadia/answer/9584135)
 
 ## Power-on (Bluetooth)
 

@@ -7,12 +7,12 @@ model: STK-7004X
 
 <img class="drawing" src="ZhiXu_STK-7004X.svg" alt="Drawing of the {{ page.brand }} {{ page.model }} gamepad, showing all buttons.">
 
-* The manufacturer is known as Saitake.
-* The USB vendor id is known as ZhiXu.
-* [User manual](http://cdn.cnetcontent.com/b9/ba/b9ba3e9a-e622-4c49-92ce-56a1fab5763c.pdf) (with different branding)
 * Connections:
     * Bluetooth (vendor id: `1949`, product id: `0402`)
     * USB-micro (vendor id: `ac05`, product id: `3d03`)
+* The manufacturer is known as Saitake.
+* The USB vendor id is known as ZhiXu.
+* [User manual](http://cdn.cnetcontent.com/b9/ba/b9ba3e9a-e622-4c49-92ce-56a1fab5763c.pdf) (with different branding)
 
 ## Power-on modes (Bluetooth)
 

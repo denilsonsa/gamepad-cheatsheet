@@ -7,9 +7,9 @@ model: PG-9017S
 
 <img class="drawing" src="Ipega_9017S.svg" alt="Drawing of the {{ page.brand }} {{ page.model }} gamepad, showing all buttons and LEDs.">
 
+* Connections: Bluetooth
 * [Product page](http://ipega.hk/gamehandle/53-120.html)
 * [Manual](http://ipega.hk/uploads/201806/5b2cb09d54326.pdf)
-* Connections: Bluetooth
 
 The manual claims it also works through USB Micro, but that's either not true, or requires a newer firmware (but there is no documented way to upgrade the firmware).
 

@@ -7,10 +7,14 @@ model: M30
 
 <img class="drawing" src="8BitDo_M30.svg" alt="Drawing of the {{ page.brand }} {{ page.model }} gamepad, showing all buttons.">
 
+* Connections: Bluetooth and USB-C
 * [Product page](https://www.8bitdo.com/m30/)
 * [Manual](https://download.8bitdo.com/Manual/Controller/M30/M30_Manual.pdf)
 * [FAQ](https://support.8bitdo.com/faq/m30-bluetooth-controller.html)
-* Connections: Bluetooth and USB-C
+* User-created content:
+    * [clach04/8bitdo_manual](https://github.com/clach04/8bitdo_manual/)
+    * [fwupd/8bitdo-firmware](https://github.com/fwupd/8bitdo-firmware)
+    * [jayp76/8bitdo_faq](https://github.com/jayp76/8bitdo_faq/wiki)
 
 ## Overview
 

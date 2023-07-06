@@ -7,10 +7,14 @@ model: Zero 2
 
 <img class="drawing" src="8BitDo_Zero_2.svg" alt="Drawing of the {{ page.brand }} {{ page.model }} gamepad, showing all buttons.">
 
+* Connections: Bluetooth and USB Micro(1)
 * [Product page](https://www.8bitdo.com/zero2/)
 * [Manual](https://download.8bitdo.com/Manual/Controller/Zero2/Zero2_Manual.pdf)
 * [FAQ](https://support.8bitdo.com/faq/zero2.html)
-* Connections: Bluetooth and USB Micro(1)
+* User-created content:
+    * [clach04/8bitdo_manual](https://github.com/clach04/8bitdo_manual/)
+    * [fwupd/8bitdo-firmware](https://github.com/fwupd/8bitdo-firmware)
+    * [jayp76/8bitdo_faq](https://github.com/jayp76/8bitdo_faq/wiki)
 
 (1) The [FAQ](https://support.8bitdo.com/faq/zero2.html) claims *“The USB connection is for firmware upgrade and power charging only.”*, but that's incorrect. This gamepad can be used through USB.
 

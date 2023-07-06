@@ -7,10 +7,10 @@ model: SEGA Mega Drive 8-Button Arcade Pad
 
 <img class="drawing" src="Retro-Bit_Mega_Drive_8_Button.svg" alt="Drawing of the {{ page.brand }} {{ page.model }} gamepad, showing all buttons.">
 
+* Connections: USB-A cable (3 meters)
 * [Product page](http://retro-bit.com/sega-collaboration)
 * [Product page (Europe)](http://retro-bit.com/sega-collaboration-eu/)
 * [Manual](http://retro-bit.com/controllers-support)
-* Connections: USB-A cable (3 meters)
 
 ## Overview
 
