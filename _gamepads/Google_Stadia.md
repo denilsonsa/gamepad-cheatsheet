@@ -33,6 +33,8 @@ It is also possible to first connect to a device via Bluetooth, and afterwards p
 
 ## Power-off
 
+Automatically turns off after 25 minutes without activity.
+
 Hold for...   | Action
 ------------- | ------
 STADIA for 4s | Power off
