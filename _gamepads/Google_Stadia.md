@@ -88,27 +88,25 @@ Note: To use vibration on the primary controller in Tandem Mode, hold the down b
 
 ## Additional udev rules for Linux systems
 
-These rules are based on the [official support page](https://web.archive.org/web/20230603175750/https://support.google.com/stadia/answer/13067284#zippy=%2Cim-on-a-linux-based-computer-and-cant-update-my-stadia-controller-help) and [some user investigation](https://web.archive.org/web/20230603175750/https://support.google.com/stadia/answer/13067284#zippy=%2Cim-on-a-linux-based-computer-and-cant-update-my-stadia-controller-help).
+These rules are based on the [official support page](https://web.archive.org/web/20230603175750/https://support.google.com/stadia/answer/13067284#zippy=%2Cim-on-a-linux-based-computer-and-cant-update-my-stadia-controller-help) and [some user investigation](https://web.archive.org/web/20230603175750/https://support.google.com/stadia/answer/13067284#zippy=%2Cim-on-a-linux-based-computer-and-cant-update-my-stadia-controller-help). They are also [available](https://codeberg.org/fabiscafe/game-devices-udev/src/branch/main/71-google-controllers.rules) as part of [game-devices-udev](https://codeberg.org/fabiscafe/game-devices-udev) project.
 
 Please add this to `/etc/udev/rules.d/70-stadiacontroller.rules`:
 
 ```conf
 # /etc/udev/rules.d/70-stadiacontroller.rules
 
-# SDP protocol
-KERNEL=="hidraw*", ATTRS{idVendor}=="1fc9", MODE="0666"
-ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="1fc9", MODE="0666"
-ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="0d28", MODE="0666"
-# Flashloader
-KERNEL=="hidraw*", ATTRS{idVendor}=="15a2", MODE="0666"
-# Controller
-KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="18d1", MODE="0666"
+# Google Stadia Controller; Bluetooth; USB
+KERNEL=="hidraw*", KERNELS=="*18D1:9400*", MODE="0660", TAG+="uaccess"
+KERNEL=="hidraw*", ATTRS{idVendor}=="18d1", ATTRS{idProduct}=="9400", SUBSYSTEM=="hidraw", MODE="0660", TAG+="uaccess"
 SUBSYSTEMS=="usb", ATTRS{idVendor}=="18d1", ATTRS{idProduct}=="9400", MODE="0660", TAG+="uaccess"
 
-# Stadia over USB hidraw
-KERNEL=="hidraw*", ATTRS{idVendor}=="18d1", ATTRS{idProduct}=="9400" SUBSYSTEM=="hidraw", MODE="0660", TAG+="uaccess"
-# Stadia over bluetooth hidraw
-KERNEL=="hidraw*", KERNELS=="*18D1:9400*", MODE="0660", TAG+="uaccess"
+# Google Stadia Controller Update
+# SDP protocol
+KERNEL=="hidraw*", ATTRS{idVendor}=="1fc9", MODE="0660", TAG+="uaccess"
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="1fc9", MODE="0660", TAG+="uaccess"
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="0d28", MODE="0660", TAG+="uaccess"
+# Flashloader
+KERNEL=="hidraw*", ATTRS{idVendor}=="15a2", MODE="0660", TAG+="uaccess"
 ```
 
 Next, run the following command:
@@ -127,6 +125,8 @@ You shouldn't need to do it manually. These instructions are here for completene
 4. Follow the instructions in the firmware update page to load and install the new firmware.
     * After receiving the new firmware, but before installing it, the controller will be recognized as `idVendor=15a2, idProduct=0073`, as a *USB COMPOSITE DEVICE* from *FREESCALE SEMICONDUCTOR INC.*.
 5. Finally, after the firmware is installed and the device reboots, it will be recognized again as `idVendor=18d1, idProduct=9400`, as a *Stadia Controller* from *Google LLC*.
+
+You can exit the firmware loading mode by holding the STADIA button for 10 seconds to force the controller to power off.
 
 ## More images
 
