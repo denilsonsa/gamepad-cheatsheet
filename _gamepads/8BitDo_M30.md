@@ -28,14 +28,14 @@ At the front of the controller, just below the START button, there are three but
 
 Use these combinations to turn on the gamepad.
 
-Combination   | Mode            | LEDs
-------------- | --------------- | ----
-START         | Last used mode  | As many as last mode
-B + START     | Android/Dinput  | 1 LED blinks
-X + START     | Xinput          | 2 LEDs blink
-A + START     | Mac             | 3 LEDs blink
-Y + START     | Nintendo Switch | 4 LEDs blink in a back-and-forth motion
-L + R + START | Firmware update | Red LED blinks constantly
+Combination   | Mode            | LEDs                         | Vendor id | Product id | Device name                                                      |
+------------- | --------------- | ----------------------------------------| ---- | ---- | ---------------------------------------------------------------- |
+START         | Last used mode  | As many as last mode                    |      |      |                                                                  |
+B + START     | Android/Dinput  | 1 LED blinks                            | 2dc8 | 5006 (USB) or 0651 (BT) | *8BitDo M30 gamepad*                          |
+X + START     | Xinput          | 2 LEDs blink                            | 045e | 028e (USB) or 02e0 (BT) | *8Bitdo M30 Controller* Xbox 360 Controller   |
+A + START     | Mac             | 3 LEDs blink                            | 054c | 05c4 | *Sony Computer Entertainment Wireless Controller* PS4 Controller |
+Y + START     | Nintendo Switch | 4 LEDs blink in a back-and-forth motion | 057e | 2009 | *Nintendo Co., Ltd. Pro Controller*                              |
+L + R + START | Firmware update | Red LED blinks constantly               | 2dc8 | 5750 | *8BitdoJoy 8Bitdo* BootMod                                       |
 
 ## Power-off
 
