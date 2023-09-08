@@ -22,16 +22,17 @@ model: Zero 2
 
 Use these combinations to turn on the gamepad.
 
-Combination   | Mode               | LED
-------------- | ------------------ | ---
-START         | Last used mode     | Blue LED blinks (last selected mode) times
-B + START     | Android/Dinput     | Blue LED blinks 1 time
-X + START     | Xinput             | Blue LED blinks 2 times
-A + START     | Mac                | Blue LED blinks 3 times
-Y + START     | Nintendo Switch    | Blue LED blinks 4 times
-R + START     | Keyboard(2)        | Blue LED blinks 5 times
-L + START     | No power saving(3) | Green LED blinks (last selected mode) times
-L + R + START | Firmware update    | Green-yellowish LED blinks constantly
+Combination   | Mode               | LED                              | Vendor id | Product id | Device name                                                   |
+------------- | ------------------ | ------------------------------------------- | ---- | ---- | ------------------------------------------------------------- |
+Plug USB cable| Android/Dinput     | Blue LED lights up, or RED while charging   | 2dc8 | 9018 | *8BitDo Zero 2 gamepad*                                       |
+START         | Last used mode     | Blue LED blinks (last selected mode) times  |      |      |                                                               |
+B + START     | Android/Dinput     | Blue LED blinks 1 time                      | 2dc8 | 3230 | *8BitDo Zero 2 gamepad*                                       |
+X + START     | Xinput             | Blue LED blinks 2 times                     | 045e | 02e0 | *Xbox One S Controller*                                       |
+A + START     | Mac                | Blue LED blinks 3 times                     | 054c | 05c4 | *Sony Computer Entertainment Wireless Controller* DualShock 4 |
+Y + START     | Nintendo Switch    | Blue LED blinks 4 times                     | 057e | 2009 | *Nintendo Switch Pro Controller*                              |
+R + START     | Keyboard(2)        | Blue LED blinks 5 times                     | 2dc8 | 3230 | *8BitDo Zero 2 gamepad*                                       |
+L + START     | No power saving(3) | Green LED blinks (last selected mode) times |      |      |                                                               |
+L + R + START | Firmware update    | Green-yellowish LED blinks constantly       | 0483 | 5760 | *8BitDo Zero 2 BootLoader*                                    |
 
 (2) Buttons are mapped to the letters from `e` to `o` (on a QWERTY layout).
 (3) Undocumented, [8BitDo support confirmed it disables the 15-minute power-off](https://www.reddit.com/r/8bitdo/comments/f37ovb/8bitdo_zero_2_lstart_blinks_green_led_why/).

@@ -54,7 +54,7 @@ Note: There are no official specifications of battery capacity or battery durati
 
 Tandem mode allows connecting a second controller via USB to the Stadia controller, while the Stadia controller is connected via Bluetooth to a gaming computer (be it a video-game console, a PC, an Android device, etc.). In other words:
 
-    Host system ← Bluetooth ← Stadia controller ← USB ← secondary controller
+> Host system ← Bluetooth ← Stadia controller ← USB ← secondary controller
 
 In this mode, the inputs from both controllers are combined, and reported together as a single controller to the main system. This is a great feature for accessibility: if one player is not able to perform certain actions on one controller, two controllers can be connected together so two players can play the game together as if they were one single player.
 
