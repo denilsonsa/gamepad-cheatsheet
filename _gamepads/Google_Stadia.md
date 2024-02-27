@@ -17,6 +17,8 @@ model: Stadia controller
     * [Stadia Controller features and specifications](https://web.archive.org/web/20230603175647/https://support.google.com/stadia/answer/9565956)
     * [Connect your Stadia Controller to a device](https://web.archive.org/web/20230603175750/https://support.google.com/stadia/answer/13067284)
     * [Troubleshoot the Stadia Controller](https://web.archive.org/web/20230603175708/https://support.google.com/stadia/answer/9584135)
+* Third-pary documentation:
+    * <https://github.com/DJm00n/ControllersInfo/tree/master/stadiacontroller>
 
 ## Power-on (Bluetooth)
 
