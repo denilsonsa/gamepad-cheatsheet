@@ -8,6 +8,7 @@ model: Zero 2
 <img class="drawing" src="8BitDo_Zero_2.svg" alt="Drawing of the {{ page.brand }} {{ page.model }} gamepad, showing all buttons.">
 
 * Connections: Bluetooth and USB Micro(1)
+* Weight: 21g
 * [Product page](https://www.8bitdo.com/zero2/)
 * [Manual](https://download.8bitdo.com/Manual/Controller/Zero2/Zero2_Manual.pdf)
 * [FAQ](https://support.8bitdo.com/faq/zero2.html)

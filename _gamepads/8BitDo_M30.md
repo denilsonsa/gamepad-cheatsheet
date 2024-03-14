@@ -8,6 +8,7 @@ model: M30
 <img class="drawing" src="8BitDo_M30.svg" alt="Drawing of the {{ page.brand }} {{ page.model }} gamepad, showing all buttons.">
 
 * Connections: Bluetooth and USB-C
+* Weight: 115g
 * [Product page](https://www.8bitdo.com/m30/)
 * [Manual](https://download.8bitdo.com/Manual/Controller/M30/M30_Manual.pdf)
 * [FAQ](https://support.8bitdo.com/faq/m30-bluetooth-controller.html)

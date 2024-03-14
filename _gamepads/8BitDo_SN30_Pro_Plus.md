@@ -8,6 +8,7 @@ model: SN30 Pro+
 <img class="drawing" src="8BitDo_SN30_Pro_Plus.svg" alt="Drawing of the {{ page.brand }} {{ page.model }} gamepad, showing all buttons.">
 
 * Connections: Bluetooth and USB-C
+* Weight: 222g
 * [Product page](https://www.8bitdo.com/sn30-pro-plus/)
 * [Manual](https://download.8bitdo.com/Manual/Controller/SN30-Pro+/SN30_Pro+_Manual.pdf)
 * [FAQ](https://support.8bitdo.com/faq/sn30-pro-plus.html)
