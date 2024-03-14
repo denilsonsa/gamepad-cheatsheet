@@ -23,7 +23,7 @@ The information of this page is based on the second model (v2).
 
 * Connections: Bluetooth and Micro-USB
 * 3.5mm TRRS combo headset jack can be used when the controller is connected via USB
-    * Measured about 30ms of microphone delay, but it could be an issue with my testing.
+    * Measured about 30ms of microphone delay.
 * 3.65V 1000mAh battery
 * Weight: 210g
 * Vendor id: `054c` "Sony Interactive Entertainment"
