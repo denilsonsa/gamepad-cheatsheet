@@ -20,6 +20,7 @@ model: Stadia controller
     * [Troubleshoot the Stadia Controller](https://web.archive.org/web/20230603175708/https://support.google.com/stadia/answer/9584135)
 * Third-pary documentation:
     * <https://github.com/DJm00n/ControllersInfo/tree/master/stadiacontroller>
+    * <https://www.pcgamingwiki.com/wiki/Controller:Stadia_Controller>
 
 ## Power-on (Bluetooth)
 

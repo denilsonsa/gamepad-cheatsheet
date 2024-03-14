@@ -25,11 +25,14 @@ The information of this page is based on the second model (v2).
 * 3.65V 1000mAh battery
 * Weight: 210g
 * Vendor id: `054c` "Sony Interactive Entertainment"
-* Product id: `09cc` "Wireless Controller"
+* Product id:
+    * v1: `05c4` "Wireless Controller"
+    * v2: `09cc` "Wireless Controller"
 * Official manual:
     * [DUALSHOCK®4 Wireless Controller Instruction Manual](https://www.playstation.com/content/dam/global_pdc/en/corporate/support/manuals/accessories/ps4-accessories/dualshock4-wireless-controller-cuh-zct2/IND_EN_CUH-ZCT2_DS4%20Wireless%20Controller%20Web.pdf)
     * [Search for other variants and languages](https://duckduckgo.com/?q=filetype%3Apdf+dualshock4-wireless-controller-cuh-zct2)
 * Third-pary documentation:
+    * <https://www.pcgamingwiki.com/wiki/Controller:DualShock_4>
     * <https://www.ifixit.com/Device/DualShock_4>
     * <https://www.ifixit.com/Device/DualShock_4_CHU-ZCT2U>
     * <https://wiki.archlinux.org/title/Gamepad#PlayStation_3/4_controller>
