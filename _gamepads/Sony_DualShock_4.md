@@ -12,10 +12,12 @@ There are two models:
     * Doesn't work over USB, can only be used over Bluetooth.
     * The rubber coating from the analog sticks degrades too quickly.
     * The LED light bar is only visible from the back.
+    * Bluetooth version 2.1+EDR.
 * v2
     * The model number starts with `CUH-ZCT2`, followed by region letter(s).
     * Works both via USB and via Bluetooth.
     * The LED light bar is visible from the top and from the back.
+    * Bluetooth version 4.0.
 
 The information of this page is based on the second model (v2).
 
