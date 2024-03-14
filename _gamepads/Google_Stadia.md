@@ -10,7 +10,8 @@ model: Stadia controller
 * Connections:
     * Bluetooth LE 4.2 (vendor id: `18d1`, product id: `9400`)
     * USB-C (vendor id: `18d1`, product id: `9400`)
-* 3.5mm headphone jack can be used when the controller is connected via USB.
+* 3.5mm TRRS combo headset jack can be used when the controller is connected via USB.
+    * Measured about 42ms of microphone delay, but it could be an issue with my testing.
 * Weight: 268g
 * [Google Stadia service was shut down on January 2023](https://web.archive.org/web/20230602175401/https://support.google.com/stadia/answer/9578631). Existing controllers can have [a firmware update to enable Bluetooth mode](https://web.archive.org/web/20230603213743/https://stadia.google.com/controller/). All the buttons are available as standard buttons, as they can no longer activate the assistance, nor capture a screenshot, nor launch Stadia.
 * Official documentation (archived):

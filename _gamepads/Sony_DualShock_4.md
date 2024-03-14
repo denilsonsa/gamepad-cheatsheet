@@ -21,6 +21,7 @@ The information of this page is based on the second model (v2).
 
 * Connections: Bluetooth and Micro-USB
 * 3.5mm TRRS combo headset jack can be used when the controller is connected via USB
+    * Measured about 30ms of microphone delay, but it could be an issue with my testing.
 * 3.65V 1000mAh battery
 * Weight: 210g
 * Vendor id: `054c` "Sony Interactive Entertainment"
@@ -48,4 +49,4 @@ Hold the PS button from 8s to 15s to turn off the controller.
 
 ## Factory reset
 
-Insert a paper clip into a little hole on the bottom of the controller, next to a screw near the L2 trigger.
+Insert a paper clip into a little hole on the bottom of the controller, next to a screw near the L2 trigger, and push the reset button for 5 seconds.
