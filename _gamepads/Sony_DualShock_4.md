@@ -5,6 +5,10 @@ model: DualShock 4
 
 # {{ page.brand }} {{ page.model }}
 
+<img class="drawing" src="Sony_DualShock_4_top.svg" alt="Drawing of the {{ page.brand }} {{ page.model }} gamepad, showing all buttons.">
+
+<img class="drawing" src="Sony_DualShock_4_back.svg" alt="Drawing of the {{ page.brand }} {{ page.model }} gamepad, showing all buttons.">
+
 There are two models:
 
 * v1
