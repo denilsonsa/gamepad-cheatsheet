@@ -35,8 +35,29 @@ R + START     | Keyboard(2)        | Blue LED blinks 5 times                    
 L + START     | No power saving(3) | Green LED blinks (last selected mode) times |      |      |                                                               |
 L + R + START | Firmware update    | Green-yellowish LED blinks constantly       | 0483 | 5760 | *8BitDo Zero 2 BootLoader*                                    |
 
-(2) Buttons are mapped to the letters from `e` to `o` (on a QWERTY layout).
+(2) See **Keyboard mapping details** below.
 (3) Undocumented, [8BitDo support confirmed it disables the 15-minute power-off](https://www.reddit.com/r/8bitdo/comments/f37ovb/8bitdo_zero_2_lstart_blinks_green_led_why/).
+
+### Keyboard mapping details
+
+Keyboard keys are sent in lowercase to the machine.
+
+**Note:** The 'l' key is not sent by any individual button.
+
+Button | Keyboard Key
+------ | ------------
+UP     | c
+DOWN   | d
+LEFT   | e
+RIGHT  | f
+A      | g
+X      | h
+Y      | i
+B      | j
+L      | k
+R      | m
+SELECT | n
+START  | o
 
 ## Power-off
 
@@ -75,3 +96,4 @@ Combination    | Mapping
 Hold SELECT    | Bluetooth pairing (blue LED blinks rapidly)
 SELECT + DOWN  | Home button (Xinput and Nintento Switch modes)
 SELECT + START | ZL + ZR buttons (Nintendo Switch mode)
+
