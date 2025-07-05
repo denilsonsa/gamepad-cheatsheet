@@ -40,9 +40,7 @@ L + R + START | Firmware update    | Green-yellowish LED blinks constantly      
 
 ### Keyboard mapping details
 
-Keyboard keys are sent in lowercase to the machine.
-
-**Note:** The 'l' key is not sent by any individual button.
+These are the button mappings to keyboard keys, assuming a [QWERTY keyboard layout](https://en.wikipedia.org/wiki/QWERTY#Computer_keyboards):
 
 Button | Keyboard Key
 ------ | ------------
@@ -58,6 +56,8 @@ L      | k
 R      | m
 SELECT | n
 START  | o
+
+The letters from C to O are sent by the gamepad, except for the letter L, which is absent from the mapping.
 
 ## Power-off
 
