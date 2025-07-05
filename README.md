@@ -4,7 +4,7 @@ This website contains a collection of cheatsheets for various gamepads.
 
 Each cheatsheet should be:
 
-* **Correct**: Any mistake should be corrected and pushed to [the repository][repo]).
+* **Correct**: Any mistake should be corrected and pushed to [the repository][repo].
 * **Concise**: It should be quick to find relevant information. Think of it as a *reference*, rather than a full manual.
 * **Comprehensive**: It should contain as much (relevant) information as possible.
 
