@@ -35,6 +35,14 @@ When already connected to one device via Bluetooth, it is possible to hold STADI
 
 It is also possible to first connect to a device via Bluetooth, and afterwards plug the USB-C cable for charging.
 
+### Troubleshooting
+
+If for some unknown reason the controller refuses to pair/connect to a PC, [try pairing to another device first](https://old.reddit.com/r/Stadia/comments/12558a8/found_a_fix_for_google_stadia_bluetooth/).
+
+1. Use your mobile phone to pair the Stadia controller.
+2. Unpair it from your phone.
+3. Try pairing it to your PC.
+
 ## Power-off
 
 Automatically turns off after 25 minutes without activity.
