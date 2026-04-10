@@ -22,6 +22,9 @@ The information of this page is based on the *ES PRO* model.
 * Weight: 220g
 * Official product page:
     * <https://gulikit.com/productinfo/1523654.html>
+* Third-pary testing:
+    * <https://gamepadla.com/gulikit-es.html>
+    * <https://gamepadla.com/gulikit-es-pro.html>
 
 Mode | Vendor id | Product id | Device name
 ---- | --------- | -----------| -----------

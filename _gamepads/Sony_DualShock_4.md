@@ -44,6 +44,9 @@ The information of this page is based on the second model (v2).
     * <https://wiki.archlinux.org/title/Gamepad#PlayStation_3/4_controller>
     * <https://wiki.archlinux.org/title/Gamepad#Playstation_4_controllers>
     * <https://github.com/chrippa/ds4drv>
+* Third-pary testing:
+    * <https://gamepadla.com/sony-dualshock-4.html>
+    * <https://gamepadla.com/sony-dualshock-4-v2.html>
 
 ## Power-on (Bluetooth)
 

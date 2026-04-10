@@ -21,6 +21,12 @@ model: Stadia controller
 * Third-pary documentation:
     * <https://github.com/DJm00n/ControllersInfo/tree/master/stadiacontroller>
     * <https://www.pcgamingwiki.com/wiki/Controller:Stadia_Controller>
+* Third-pary testing:
+    * <https://gamepadla.com/google-stadia-controller.html>
+        * Around 1~5ms of button latency over cable.
+        * Around 6~14ms of stick latency over cable.
+        * Around 24~32ms of button latency over Bluetooth.
+        * Around 24~32ms of stick latency over Bluetooth.
 
 ## Power-on (Bluetooth)
 
