@@ -15,7 +15,7 @@ The *ES* and *ES PRO* models are very similar, with minor differences:
 * *ES PRO* comes with a USB-C cable in the box.
 * *ES PRO* has more customizations available.
 
-The information of this page is based on the *ES PRO* model.
+This page contains information for both *ES* and *ES PRO* models.
 
 * Connections: Bluetooth and USB-C
 * 950mAh battery (unspecified voltage)
